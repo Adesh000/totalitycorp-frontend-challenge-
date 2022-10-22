@@ -8,9 +8,6 @@
     padding: 10px 50px;
     font-family: 'Poppins', sans-serif;
 }
-.menu {
-    flex: 1;
-}
 .menu > ul {
     list-style-type: none;
     display: flex;
@@ -24,6 +21,22 @@
     color: #cdc9c9;
     text-decoration: none;
 }
+.menu a:hover{
+    color: #fff;
+}
 .last-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #cdc9c9;
+}
+.last-sec > i{
+    margin: 0 20px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .menu{
+        display: none;
+    }
 }

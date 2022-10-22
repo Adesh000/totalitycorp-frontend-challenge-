@@ -1,1 +1,7 @@
-
+.App > Hero {
+    background-image: url('./images/iPad-large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}

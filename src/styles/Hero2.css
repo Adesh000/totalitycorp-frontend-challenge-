@@ -1,0 +1,38 @@
+.hero2{
+    background-image: url('../images/download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.hero2 .text-content{
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+.hero2 h1{
+    font-size: 50px;
+    margin: 5px;
+}
+.hero2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px;
+}
+.hero2 .text-content > p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #758283;
+    margin: 5px;
+}
+
+@media screen and (max-width: 640px){
+    .hero2 .hero-section{
+        background-image: url('../images/hero_ipadpro_order__fpc2supjug66_small_2x.jpg');
+    }
+}

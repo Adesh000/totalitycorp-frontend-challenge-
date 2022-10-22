@@ -1,0 +1,19 @@
+.hero-section{
+    background-image: url('../images/iPad-large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 640px){
+    .hero-section{
+        background-image: url('../images/hero_ipad_order__752kv3kpn2qi_small_2x.jpg');
+    }
+}
+
+
+
+

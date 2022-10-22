@@ -7,17 +7,26 @@
 
 .footer-container a {
     text-decoration: none;
-    color: #000;
+    color: rgb(86, 84, 84);
     font-size: 15px;
-    text-align: start;
 }
-.footer-container  ul{
+.footer-container a:hover{
+    text-decoration: underline;
+}
+.footer-container ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
 }
 
 .upper-sec p {
     font-size: 16px;
     font-weight: 600;
+    position: relative;
+    left: 35px;
 }
 
 .upper-sec{
@@ -58,3 +67,20 @@
     background: #949292;
 }
 
+@media screen and (max-width: 640px){
+    .upper-sec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upper-sec > div{
+        width: 200px;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    .policies{
+        display: flex;
+        flex-direction: column;
+    }
+}

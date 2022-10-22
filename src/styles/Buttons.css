@@ -1,0 +1,12 @@
+button{
+    background: none;
+    color: #6f6ff8;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
