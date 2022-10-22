@@ -1,0 +1,29 @@
+
+
+.main-container{
+    background: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu {
+    flex: 1;
+}
+.menu > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu li{
+    margin: 0 20px;
+}
+.menu a {
+    color: #cdc9c9;
+    text-decoration: none;
+}
+.last-sec {
+    color: #cdc9c9;
+}
